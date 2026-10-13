@@ -1,0 +1,12 @@
+{
+  "name": "meditrack-frontend",
+  "version": "1.0.0",
+  "description": "MediTrack Hospital Management System UI",
+  "scripts": {
+    "build": "tsc",
+    "serve": "npx serve -l 3000 ."
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

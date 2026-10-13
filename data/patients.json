@@ -1,0 +1,6 @@
+[
+  {"id":"PAT-1001","name":"Tanvir Hassan","phone":"+880-1888-101","email":"tanvir@mail.com","age":32,"role":"Patient","bloodGroup":"B+","medicalHistory":"Acute Appendicitis","admissionDate":"2026-10-13T08:30:00","isAdmitted":true,"assignedRoomId":"GW-001"},
+  {"id":"PAT-1002","name":"Clara Chan","phone":"+1-650-2020","email":"clara@mail.com","age":27,"role":"Patient","bloodGroup":"A-","medicalHistory":"Post-Op Recovery","admissionDate":"2026-10-13T09:00:00","isAdmitted":true,"assignedRoomId":"CAB-001"},
+  {"id":"PAT-1003","name":"Samuel Okafor","phone":"+234-803-303","email":"samuel@mail.com","age":48,"role":"Patient","bloodGroup":"O+","medicalHistory":"Pulmonary Condition","admissionDate":"2026-10-13T07:45:00","isAdmitted":true,"assignedRoomId":"ICU-001"},
+  {"id":"PAT-1004","name":"Nusrat Jahan","phone":"+880-1744-404","email":"nusrat@mail.com","age":24,"role":"Patient","bloodGroup":"AB+","medicalHistory":"General Checkup","admissionDate":"2026-10-13T10:15:00","isAdmitted":false,"assignedRoomId":null}
+]

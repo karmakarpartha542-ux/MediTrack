@@ -1,0 +1,14 @@
+# Compiled Java class files
+*.class
+bin/
+out/
+
+# Dependency and build directories
+node_modules/
+.idea/
+*.iml
+.vscode/
+
+# OS metadata
+.DS_Store
+Thumbs.db

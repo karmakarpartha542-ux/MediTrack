@@ -1,0 +1,7 @@
+[
+  {"id":"DOC-001","name":"Dr. Farhan Ahmed","phone":"+880-1711-001","email":"farhan@meditrack.io","age":45,"role":"Doctor","specialization":"CARDIOLOGY","specializationDisplayName":"Cardiology","consultationFee":800.0,"isAvailable":true,"department":"Cardiology Unit"},
+  {"id":"DOC-002","name":"Dr. Elena Thornton","phone":"+1-555-2002","email":"elena@meditrack.io","age":38,"role":"Doctor","specialization":"NEUROLOGY","specializationDisplayName":"Neurology","consultationFee":1200.0,"isAvailable":true,"department":"Neurology Dept"},
+  {"id":"DOC-003","name":"Dr. Maria Santos","phone":"+63-917-3003","email":"maria@meditrack.io","age":50,"role":"Doctor","specialization":"ORTHOPEDICS","specializationDisplayName":"Orthopedics","consultationFee":900.0,"isAvailable":true,"department":"Orthopedics Dept"},
+  {"id":"DOC-004","name":"Dr. James Wilson","phone":"+44-7700-4004","email":"james@meditrack.io","age":55,"role":"Doctor","specialization":"GENERAL_MEDICINE","specializationDisplayName":"General Medicine","consultationFee":500.0,"isAvailable":true,"department":"General Medicine"},
+  {"id":"DOC-005","name":"Dr. Priya Sharma","phone":"+91-9876-5005","email":"priya@meditrack.io","age":35,"role":"Doctor","specialization":"PEDIATRICS","specializationDisplayName":"Pediatrics","consultationFee":600.0,"isAvailable":true,"department":"Pediatrics Ward"}
+]

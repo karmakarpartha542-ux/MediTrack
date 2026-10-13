@@ -1,0 +1,6 @@
+[
+  {"appointmentId":"APT-001","patientId":"PAT-1001","patientName":"Tanvir Hassan","doctorId":"DOC-001","doctorName":"Dr. Farhan Ahmed","specialization":"Cardiology","dateTime":"2026-10-13 09:00","status":"SCHEDULED","statusDisplayName":"Scheduled","notes":"Follow-up cardio check"},
+  {"appointmentId":"APT-002","patientId":"PAT-1002","patientName":"Clara Chan","doctorId":"DOC-003","doctorName":"Dr. Maria Santos","specialization":"Orthopedics","dateTime":"2026-10-13 10:30","status":"COMPLETED","statusDisplayName":"Completed","notes":"Post-op assessment"},
+  {"appointmentId":"APT-003","patientId":"PAT-1003","patientName":"Samuel Okafor","doctorId":"DOC-002","doctorName":"Dr. Elena Thornton","specialization":"Neurology","dateTime":"2026-10-13 11:00","status":"SCHEDULED","statusDisplayName":"Scheduled","notes":"Pulmonary neuro consult"},
+  {"appointmentId":"APT-004","patientId":"PAT-1004","patientName":"Nusrat Jahan","doctorId":"DOC-005","doctorName":"Dr. Priya Sharma","specialization":"Pediatrics","dateTime":"2026-10-13 14:00","status":"COMPLETED","statusDisplayName":"Completed","notes":"General wellness visit"}
+]

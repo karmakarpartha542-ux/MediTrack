@@ -1,0 +1,5 @@
+[
+  {"billId":"BILL-001","patientId":"PAT-1004","patientName":"Nusrat Jahan","items":[{"description":"Consultation - Dr. Priya Sharma (Pediatrics)","amount":600.0}],"totalAmount":600.0,"isPaid":false,"createdDate":"2026-10-13","notes":"General Checkup"},
+  {"billId":"BILL-002","patientId":"PAT-EXT-01","patientName":"Marcus Brody","items":[{"description":"Consultation - Dr. Elena Thornton (Neurology)","amount":800.0},{"description":"Diagnostic Imaging","amount":320.0}],"totalAmount":1120.0,"isPaid":false,"createdDate":"2026-10-13","notes":"Outpatient neuro visit"},
+  {"billId":"BILL-003","patientId":"PAT-EXT-02","patientName":"Eileen Zhou","items":[{"description":"Consultation - Dr. Farhan Ahmed (Cardiology)","amount":800.0},{"description":"ECG & Cardiology Tests","amount":90.0}],"totalAmount":890.0,"isPaid":false,"createdDate":"2026-10-13","notes":"Cardiology screening"}
+]

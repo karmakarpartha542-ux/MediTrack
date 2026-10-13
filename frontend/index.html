@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediTrack — Hospital Management System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       SIDEBAR
+  ═══════════════════════════════════════════ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="MediTrack Logo" class="brand-logo-img" />
+      <span class="logo-text">MediTrack</span>
+    </div>
+
+    <button class="btn-new-admission" id="newAdmissionBtn">+ New Admission</button>
+
+    <ul class="nav-list">
+      <li class="nav-item active" data-view="dashboard">
+        <span class="nav-icon">📊</span><span>Dashboard</span>
+      </li>
+      <li class="nav-item" data-view="patients">
+        <span class="nav-icon">🧑</span><span>Patients</span>
+      </li>
+      <li class="nav-item" data-view="doctors">
+        <span class="nav-icon">👨‍⚕️</span><span>Doctors</span>
+      </li>
+      <li class="nav-item" data-view="appointments">
+        <span class="nav-icon">📅</span><span>Appointments</span>
+      </li>
+      <li class="nav-item" data-view="rooms">
+        <span class="nav-icon">🛏️</span><span>Rooms &amp; Stays</span>
+      </li>
+      <li class="nav-item" data-view="bills">
+        <span class="nav-icon">💳</span><span>Bills</span>
+      </li>
+    </ul>
+
+    <div class="sidebar-footer">
+      <div class="sidebar-footer-item">
+        <span>⚙️</span><span>Settings</span>
+      </div>
+      <div class="sidebar-footer-item">
+        <div class="user-avatar">SJ</div>
+        <div>
+          <div style="font-size:13px;font-weight:600;color:white">Dr. Sarah Jenkins</div>
+          <div style="font-size:11px;color:rgba(255,255,255,0.6)">Chief of Medicine</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ═══════════════════════════════════════════
+       TOP NAVBAR
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar">
+    <div class="page-title-area">
+      <h1 id="pageTitle">Dashboard</h1>
+    </div>
+    <div class="search-bar">
+      <span>🔍</span>
+      <input type="text" id="globalSearch" placeholder="Search patients, doctors, records..." />
+    </div>
+    <div class="navbar-right">
+      <button class="btn-emergency">🚨 Emergency Triage</button>
+      <div class="notification-btn">
+        🔔
+        <span class="notification-badge">3</span>
+      </div>
+      <div class="doctor-info">
+        <div class="doctor-avatar">SJ</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       MAIN CONTENT (rendered by TypeScript)
+  ═══════════════════════════════════════════ -->
+  <main class="main-content" id="main-content">
+    <div class="loading">
+      <div class="spinner"></div>
+      <p>Connecting to MediTrack server...</p>
+    </div>
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       MODAL OVERLAY
+  ═══════════════════════════════════════════ -->
+  <div class="modal-overlay" id="modalOverlay" style="display:none">
+    <div class="modal" id="modalContainer"></div>
+  </div>
+
+  <script type="module" src="dist/app.js"></script>
+</body>
+</html>
